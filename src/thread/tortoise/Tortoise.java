@@ -19,7 +19,7 @@ public class Tortoise extends Thread {
                 case 2 -> System.out.println("The Tortoise has reached the Mountain Hill!");
                 case 3 -> {
                     System.out.println("The Tortoise has reached the Big Oak Tree!");
-                    System.out.println("The Tortoise is leading and hence is going to sleep!");
+                    System.out.println("The Rabbit is leading and hence is going to sleep!");
                     try {
                         Thread.sleep(9000L);
                     } catch (InterruptedException e) {
